@@ -1,13 +1,12 @@
 node_modules/
 /test-results/
-/playwright-report/
-/playwright/.cache/
 /test-results/
-/playwright-report/
 /blob-report/
+playwright/.auth/user.json
+/playwright-report/
 /playwright/.cache/
 
-# Optional npm cache directort
+# Optional npm cache directory
 .npm
 
 # dotenv environment variable file
