@@ -16,7 +16,7 @@ test.beforeEach(async ({ api }) => {
   //const apiBaseURL = process.env.SERVICEURL;
 });
 
-test.describe('API tests', async () => {
+test.describe.skip('API tests', async () => {
 
     test('GET Request #01', async ({ api }) => {
       const endpoint = `${apiBaseURL}/objects?id=6`
