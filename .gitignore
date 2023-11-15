@@ -10,4 +10,4 @@ playwright/.auth/user.json
 .npm
 
 # dotenv environment variable file
-.env
+
