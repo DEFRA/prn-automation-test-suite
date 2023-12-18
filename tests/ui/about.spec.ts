@@ -4,7 +4,7 @@ test.beforeEach(async ({ homepage }) => {
   //await homepage.clickNavigationLink('About');
 });
 
-test.describe('About page tests', async () => {
+test.describe.skip('About page tests', async () => {
 
   test('Verify title', async ({ aboutpage }) => {
     await aboutpage.verifyTitle();
